@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bono App | Sign Up</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a href="index.html">
+          <img class="logo" src="images/logo.svg" alt="Bono App Logo" />
+        </a>
+        <div class="header-right">
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:contact@bonoapp.com">contact@bonoapp.com</a>
+          </div>
+          <div><i class="fa-solid fa-phone"></i> +1 (234) 567-8901</div>
+          <div>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <main class="main-content">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+        <div class="text-container">
+          <h1>Coming Soon for every Developer</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            euismod, nunc ut laoreet tincidunt, nunc nisl aliquam nunc, eu
+            aliquam nisl nunc eu nunc. Sed euismod, nunc ut laoreet tincidunt,
+            nunc nisl aliquam nunc, eu aliquam nisl nunc eu nunc.
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
